@@ -32,14 +32,14 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-            src="/hero-desktop.png"
+            src="hero-desktop.png"
             height={1000}
             width={760}
             className="hidden md:block"
             alt="Screenshot of Dashboard project showing desktop version"
           />
           <Image
-            src="/hero-mobile.png"
+            src="hero-mobile.png"
             height={620}
             width={560}
             className="block md:hidden"
